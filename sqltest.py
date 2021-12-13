@@ -39,7 +39,5 @@ def close():
     connection.close()
 
 start()
-
-print(read(2))
-print("done")
+print("sql done")
 
