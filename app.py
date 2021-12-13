@@ -45,7 +45,4 @@ def get_clients():
         retur.append(new_item)
     return jsonify({'client': retur})
 
-
-
-
 app.run(port=5000)
